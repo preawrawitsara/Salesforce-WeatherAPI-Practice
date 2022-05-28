@@ -1,0 +1,8 @@
+<apex:page standardController="Account" extensions="TestOpenWeather" showHeader="false" sidebar="false">
+    <apex:pageBlock title="{} Weather">
+        <apex:pageBlockSection >
+            <apex:pageMessages ></apex:pageMessages>
+            <apex:outputText label="Temperature" value="{}" />
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>
